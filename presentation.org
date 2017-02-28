@@ -1,0 +1,21 @@
+* config
+#+AUTHOR: Louis-Guillaume Gagnon
+#+DATE: <DATE>
+#+TITLE: <TITRE>
+#+LATEX_CLASS: beamer
+#+BEAMER_COLOR_THEME: crane
+#+LATEX_CLASS_OPTIONS: [9pt]
+
+#+OPTIONS: toc:nil
+#+OPTIONS: H:2
+#+BEAMER_HEADER: \setbeamertemplate{footline}[frame number]
+#+BEAMER_HEADER: \setbeamertemplate{navigation symbols}{}
+#+BEAMER_HEADER: \setbeamersize{text margin left=0.5cm,text margin right=0.5cm}
+#+BEAMER_HEADER:\titlegraphic{\makebox[0.8\paperwidth]{\includegraphics[width=3cm]{UdeM_CMJK.pdf} \hfill \includegraphics[width=3cm]{GPPLogo.pdf} \hfill \includegraphics[width=3cm]{ATLAS-blue.pdf}}}
+
+#+LATEX_HEADER: \newcommand{\bluelink}[2]{\href{#1}{\textcolor{blue}{\underline{#2}}}}
+#+LATEX_HEADER: \newcommand{\met}{\ensuremath{E_{T}^{miss}}}
+#+LATEX_HEADER: \newcommand{\invfb}{fb$^{-1}$}
+#+LATEX_HEADER: \newcommand{\ttbar}{\ensuremath{t\overline{t}}\ }
+
+* presentation
